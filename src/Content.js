@@ -1,23 +1,23 @@
-import Hero_icon from "./assets/images/Hero/person.png";
+import Hero_icon from "@/assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import html from "./assets/images/Skills/html.png";
-import css from "./assets/images/Skills/css.png";
-import tailwind from "./assets/images/Skills/tailwind.png";
-import reactjs from "./assets/images/Skills/react.png";
-import javascript from "./assets/images/Skills/javascript.png";
-import mysql from "./assets/images/Skills/mysql.png";
-import git from "./assets/images/Skills/git.png";
+import figma from "@/assets/images/Skills/figma.png";
+import html from "@/assets/images/Skills/html.png";
+import css from "@/assets/images/Skills/css.png";
+import tailwind from "@/assets/images/Skills/tailwind.png";
+import reactjs from "@/assets/images/Skills/react.png";
+import javascript from "@/assets/images/Skills/javascript.png";
+import mysql from "@/assets/images/Skills/mysql.png";
+import git from "@/assets/images/Skills/git.png";
 
-import uismarket from "./assets/images/projects/uismarket.png";
-import flamma from "./assets/images/projects/flamma.png";
-import todo from "./assets/images/projects/todo.png";
-import mascotas from "./assets/images/projects/logo_huellita1.png";
-import pokemon from "./assets/images/projects/pokemon.png";
-import starwars from "./assets/images/projects/starwars.png";
-import peliculas from "./assets/images/projects/peliculas.png";
-import carrito from "./assets/images/projects/carrito.png";
-import person_project from "./assets/images/Hero/person.png";
+import uismarket from "@/assets/images/projects/uismarket.png";
+import flamma from "@/assets/images/projects/flamma.png";
+import todo from "@/assets/images/projects/todo.png";
+import mascotas from "@/assets/images/projects/logo_huellita1.png";
+import pokemon from "@/assets/images/projects/pokemon.png";
+import starwars from "@/assets/images/projects/starwars.png";
+import peliculas from "@/assets/images/projects/peliculas.png";
+import carrito from "@/assets/images/projects/carrito.png";
+import person_project from "@/assets/images/Hero/person.png";
 
 
 export const content = {
