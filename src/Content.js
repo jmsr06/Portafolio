@@ -9,14 +9,14 @@ import javascript from "@/assets/images/Skills/javascript.png";
 import mysql from "@/assets/images/Skills/mysql.png";
 import git from "@/assets/images/Skills/git.png";
 
-import uismarket from "@/assets/images/projects/uismarket.png";
-import flamma from "@/assets/images/projects/flamma.png";
-import todo from "@/assets/images/projects/todo.png";
-import mascotas from "@/assets/images/projects/logo_huellita1.png";
-import pokemon from "@/assets/images/projects/pokemon.png";
-import starwars from "@/assets/images/projects/starwars.png";
-import peliculas from "@/assets/images/projects/peliculas.png";
-import carrito from "@/assets/images/projects/carrito.png";
+import uismarket from "@/assets/images/Projects/uismarket.png";
+import flamma from "@/assets/images/Projects/flamma.png";
+import todo from "@/assets/images/Projects/todo.png";
+import mascotas from "@/assets/images/Projects/logo_huellita1.png";
+import pokemon from "@/assets/images/Projects/pokemon.png";
+import starwars from "@/assets/images/Projects/starwars.png";
+import peliculas from "@/assets/images/Projects/peliculas.png";
+import carrito from "@/assets/images/Projects/carrito.png";
 import person_project from "@/assets/images/Hero/person.png";
 
 
