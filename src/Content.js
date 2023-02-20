@@ -129,10 +129,10 @@ export const content = {
         id:5,
         color: "white",
         image: carrito,
-        description: "",
-        description_en: "",
+        description: "Catálogo de productos y carrito de compras.",
+        description_en: "Product catalog and shopping cart.",
         color_description: "black",
-        url: "https://info-pokemons.netlify.app",
+        url: "https://react-shopping-cart-js.netlify.app",
         technologies: ["ReactJs", "TailwindCss"],
         flip: false
       },
