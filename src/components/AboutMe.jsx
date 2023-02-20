@@ -13,7 +13,7 @@ const AboutMe = ({ idioma }) => {
                                 'Systems Engineer from the Universidad Industrial de Santander with experience in web development, focused on frontend development using React.js. I am a creative person, fast learner and I have great interest in web application development. I like to be constantly learning new technologies.'
                             }
                         </p>
-                        <a href={idioma.id == 1 ? '/public/HV.pdf' : '/public/CV.pdf'} target="_blank" className="text-center hover:opacity-70 mt-10 font-bold font-Paprika w-[190px] p-2 rounded-md cursor-pointer bg-primaryLinear">{idioma.id == 1 ? 'Hoja de vida' : 'See my CV'}</a>
+                        <a href={idioma.id == 1 ? './HV.pdf' : './CV.pdf'} target="_blank" className="text-center hover:opacity-70 mt-10 font-bold font-Paprika w-[190px] p-2 rounded-md cursor-pointer bg-primaryLinear">{idioma.id == 1 ? 'Hoja de vida' : 'See my CV'}</a>
                     </div>
                     <img className="h-96" src={about} />
                 </div>
