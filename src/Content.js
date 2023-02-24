@@ -17,6 +17,7 @@ import pokemon from "@/assets/images/Projects/pokemon.png";
 import starwars from "@/assets/images/Projects/starwars.png";
 import peliculas from "@/assets/images/Projects/peliculas.png";
 import carrito from "@/assets/images/Projects/carrito.png";
+import MD from "@/assets/images/Projects/MD.png";
 import person_project from "@/assets/images/Hero/person.png";
 
 
@@ -127,6 +128,17 @@ export const content = {
       },
       {
         id:5,
+        color: "black",
+        image: MD,
+        description: "Previsualizador de Markdown",
+        description_en: "Markdown Previewer project",
+        color_description: "white",
+        url: "https://markdown-previewer-react-sass.netlify.app/",
+        technologies: ["ReactJs", "Sass"],
+        flip: false
+      },
+      {
+        id:6,
         color: "white",
         image: carrito,
         description: "Catálogo de productos y carrito de compras.",
@@ -137,24 +149,13 @@ export const content = {
         flip: false
       },
       {
-        id:6,
+        id:7,
         color: "white",
         image: pokemon,
         description: "Búsqueda de pokemones y su descripción, implementando scroll infinito, buscador y ventana modal.",
         description_en: "Search for pokemons and their description, implementing infinite scroll, search engine and modal window.",
         color_description: "black",
         url: "https://info-pokemons.netlify.app",
-        technologies: ["ReactJs", "TailwindCss" ],
-        flip: false
-      },
-      {
-        id:7,
-        color: "black",
-        image: starwars,
-        description: "Búsqueda de personajes de Star Wars y su descripción, implementando paginación y buscador.",
-        description_en: "Search for star wars characters and their description, implementing pagination and search engine.",
-        color_description: "white",
-        url: "https://star-wars-character-list.netlify.app",
         technologies: ["ReactJs", "TailwindCss" ],
         flip: false
       },
@@ -166,6 +167,17 @@ export const content = {
         description_en: "Search for movies and their release year using OMDb API, implementing paging and sorting.",
         color_description: "black",
         url: "https://react-buscador-peliculas.netlify.app/",
+        technologies: ["ReactJs", "TailwindCss" ],
+        flip: false
+      },
+      {
+        id:9,
+        color: "black",
+        image: starwars,
+        description: "Búsqueda de personajes de Star Wars y su descripción, implementando paginación y buscador.",
+        description_en: "Search for star wars characters and their description, implementing pagination and search engine.",
+        color_description: "white",
+        url: "https://star-wars-character-list.netlify.app",
         technologies: ["ReactJs", "TailwindCss" ],
         flip: false
       }
