@@ -18,6 +18,7 @@ import starwars from "@/assets/images/Projects/starwars.png";
 import peliculas from "@/assets/images/Projects/peliculas.png";
 import carrito from "@/assets/images/Projects/carrito.png";
 import MD from "@/assets/images/Projects/MD.png";
+import calculator from "@/assets/images/Projects/calc.png";
 import person_project from "@/assets/images/Hero/person.png";
 
 
@@ -140,6 +141,17 @@ export const content = {
       {
         id:6,
         color: "white",
+        image: calculator,
+        description: "Calculadora que tiene las cuatro funciones estándar para suma, resta, multiplicación y división.",
+        description_en: "Calculator that has the four standard functions for addition, subtraction, multiplication, and division.",
+        color_description: "black",
+        url: "https://calculator-react-fcc.netlify.app",
+        technologies: ["ReactJs", "TailwindCss"],
+        flip: false
+      },
+      {
+        id:7,
+        color: "white",
         image: carrito,
         description: "Catálogo de productos y carrito de compras.",
         description_en: "Product catalog and shopping cart.",
@@ -149,7 +161,7 @@ export const content = {
         flip: false
       },
       {
-        id:7,
+        id:8,
         color: "white",
         image: pokemon,
         description: "Búsqueda de pokemones y su descripción, implementando scroll infinito, buscador y ventana modal.",
@@ -160,7 +172,7 @@ export const content = {
         flip: false
       },
       {
-        id:8,
+        id:9,
         color: "white",
         image: peliculas,
         description: "Búsqueda de películas y su año de lanzamiento consumiento OMDb API, implementando paginación y ordenamiento.",
@@ -171,7 +183,7 @@ export const content = {
         flip: false
       },
       {
-        id:9,
+        id:10,
         color: "black",
         image: starwars,
         description: "Búsqueda de personajes de Star Wars y su descripción, implementando paginación y buscador.",
