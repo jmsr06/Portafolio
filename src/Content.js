@@ -19,6 +19,7 @@ import peliculas from "@/assets/images/Projects/peliculas.png";
 import carrito from "@/assets/images/Projects/carrito.png";
 import MD from "@/assets/images/Projects/MD.png";
 import calculator from "@/assets/images/Projects/calc.png";
+import quote from "@/assets/images/Projects/quote.png";
 import person_project from "@/assets/images/Hero/person.png";
 
 
@@ -184,6 +185,17 @@ export const content = {
       },
       {
         id:10,
+        color: "white",
+        image: quote,
+        description: "Frases aleatorias para publicar en Twitter.",
+        description_en: "Random phrases to post on Twitter.",
+        color_description: "black",
+        url: "https://react-random-quote-machine-js.netlify.app/",
+        technologies: ["ReactJs", "Css" ],
+        flip: false
+      },
+      {
+        id:11,
         color: "black",
         image: starwars,
         description: "Búsqueda de personajes de Star Wars y su descripción, implementando paginación y buscador.",
