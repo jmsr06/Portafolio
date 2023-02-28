@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import AboutMe from "./components/AboutMe";
+import Certificates from "./components/Certificates";
 
 const App = () => {
   useEffect(() => {
@@ -41,6 +42,7 @@ const App = () => {
       <Skills idioma={idioma} />
       <AboutMe idioma={idioma} />
       <Projects idioma={idioma} />
+      <Certificates idioma={idioma}/>
       <Contact idioma={idioma} />
     </div>
   );

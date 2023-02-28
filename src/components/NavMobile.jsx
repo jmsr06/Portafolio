@@ -13,6 +13,9 @@ const NavMobile = ({idioma}) => {
                 <li className='font-medium font-Paprika hover:opacity-40 transition-all duration-400 cursor-pointer'>
                     <a href={idioma.id == 1 ? '#proyectos' : '#projects'} > {idioma.id == 1 ? 'Proyectos' : 'Projects'}</a>
                 </li>
+                <li className='font-medium font-Paprika hover:opacity-40 transition-all duration-400 cursor-pointer'>
+                    <a href={idioma.id == 1 ? '#certificados' : '#certificates'} > {idioma.id == 1 ? 'Certificados' : 'Certificates'}</a>
+                </li>
                 <li className=' font-medium font-Paprika hover:opacity-40 transition-all duration-400 cursor-pointer'>
                     <a href={idioma.id == 1 ? '#contacto' : '#contact'} > {idioma.id == 1 ? 'Contacto' : 'Contact'}</a>
                 </li>
