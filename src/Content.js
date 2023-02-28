@@ -20,6 +20,8 @@ import carrito from "@/assets/images/Projects/carrito.png";
 import MD from "@/assets/images/Projects/MD.png";
 import calculator from "@/assets/images/Projects/calc.png";
 import quote from "@/assets/images/Projects/quote.png";
+import reloj from "@/assets/images/Projects/reloj.png";
+import DM from "@/assets/images/Projects/DM.png";
 import person_project from "@/assets/images/Hero/person.png";
 
 
@@ -153,6 +155,28 @@ export const content = {
       {
         id:7,
         color: "white",
+        image: reloj,
+        description: "Reloj que permite programar un tiempo de ejecución de trabajos y un tiempo de descanso con aviso sonoro.",
+        description_en: "Clock that allows programming a job execution time and a rest time with an audible warning.",
+        color_description: "black",
+        url: "https://pomodoro-timer-react-js.netlify.app",
+        technologies: ["ReactJs", "TailwindCss"],
+        flip: false
+      },
+      {
+        id:8,
+        color: "white",
+        image: DM,
+        description: "Este proyecto permite realizar patrones de ritmo mediante un generador de sonidos de instrumentos.",
+        description_en: "This project allows you to make rhythm patterns using an instrument sound generator.",
+        color_description: "black",
+        url: "https://drum-machine-js.netlify.app",
+        technologies: ["ReactJs", "TailwindCss"],
+        flip: false
+      },
+      {
+        id:9,
+        color: "white",
         image: carrito,
         description: "Catálogo de productos y carrito de compras.",
         description_en: "Product catalog and shopping cart.",
@@ -162,7 +186,7 @@ export const content = {
         flip: false
       },
       {
-        id:8,
+        id:10,
         color: "white",
         image: pokemon,
         description: "Búsqueda de pokemones y su descripción, implementando scroll infinito, buscador y ventana modal.",
@@ -173,7 +197,7 @@ export const content = {
         flip: false
       },
       {
-        id:9,
+        id:11,
         color: "white",
         image: peliculas,
         description: "Búsqueda de películas y su año de lanzamiento consumiento OMDb API, implementando paginación y ordenamiento.",
@@ -184,7 +208,7 @@ export const content = {
         flip: false
       },
       {
-        id:10,
+        id:12,
         color: "white",
         image: quote,
         description: "Frases aleatorias para publicar en Twitter.",
@@ -195,7 +219,7 @@ export const content = {
         flip: false
       },
       {
-        id:11,
+        id:13,
         color: "black",
         image: starwars,
         description: "Búsqueda de personajes de Star Wars y su descripción, implementando paginación y buscador.",
