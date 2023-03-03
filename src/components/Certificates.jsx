@@ -18,7 +18,7 @@ const Certificates = ({ idioma }) => {
                     </div>
                     <div className="flex flex-col bg-white relative group w-full gap-5 max-w-sm rounded-md border-2 border-slate-200 p-4" data-aos="fade-up" data-aos-delay={200}>
                         <a href='https://www.freecodecamp.org/certification/jmsr06/responsive-web-design' target="_blank" className="text-xl font-bold hover:opacity-50 underline"> Responsive Web Design</a>
-                        <p className='text-base'>freecodecamp.org | {idioma.id == 1 ? 'Marzi' : 'March'} 2023</p>
+                        <p className='text-base'>freecodecamp.org | {idioma.id == 1 ? 'Marzo' : 'March'} 2023</p>
                     </div>
                 </div>
             </div>
