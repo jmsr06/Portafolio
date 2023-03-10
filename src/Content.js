@@ -48,7 +48,7 @@ export const content = {
     title_en: "Skills",
     skills_content: [
       {
-        name: "React js",
+        name: "React.js - React Native",
         logo: reactjs,
       },
       {
