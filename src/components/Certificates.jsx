@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 const Certificates = ({ idioma }) => {
 
     return (
-        <section id={idioma.id == 1 ? 'certificados' : 'certificates'} className="min-h-fit">
+        <section id={idioma.id == 1 ? 'certificados' : 'certificates'} className="mt-2 min-h-fit">
             <div className="md:container px-5 py-14" data-aos="fade-down">
                 <h2 className="title mb-10" data-aos="fade-down">{idioma.id == 1 ? 'Certificados' : 'Certificates'}</h2>
                 <br />
